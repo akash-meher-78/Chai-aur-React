@@ -68,7 +68,7 @@ function PasswordGenerator() {
             <input type="checkbox" defaultChecked={charAllowed} id="numberInput" onChange={() => {
               setcharAllowed((prev) => !prev);
             }} />
-            <label htmlFor="">Characters</label>
+            <label>Characters</label>
           </div>
         </div>
 
