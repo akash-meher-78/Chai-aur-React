@@ -1,16 +1,17 @@
+import AddDec from "./components/AddDec"
 import Login from "./components/Login"
 import Profile from "./components/Profile"
-import UserContextProvider from "./context/userContextProider"
+import UserContextProvider from "./context/UserContextProider"
 
 function App() {
 
   return (
     <div className="h-[100vh] w-[100vw] flex justify-center items-center flex-col bg-black text-white">
       <UserContextProvider>
-        <h1>Chai Aur Context Api</h1>
-
-        <Login />
-        <Profile />
+        {/* Resume 41:00 */}
+        {/* <Login /> */}
+        {/* <Profile /> */}
+        <AddDec/>
       </UserContextProvider>
     </div>
   )
